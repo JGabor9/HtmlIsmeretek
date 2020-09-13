@@ -1,0 +1,48 @@
+/* @viewport{
+    zoom: 1.0;
+    width: device-width;
+    min-zoom: 1;
+    max-zoom: 3;
+    zoom: fixed;
+  } */
+
+body {
+    background-color: lightcoral;
+    margin: 0;
+}
+
+#container {
+    /* width: 1200px; */
+    /* width: 980px; */
+    /* width: 500px; */
+    /* width: 375px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: white;
+    border:1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin-left: -31px;
+}
+
+td {
+    text-align: center;
+    height: 20px;
+    width: 5%;
+    font-size: 0.9em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+tr {
+}
+
+td:nth-child(odd){
+    background-color: lightgray;
+}

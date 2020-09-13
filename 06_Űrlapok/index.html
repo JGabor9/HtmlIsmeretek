@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapok</title>
+</head>
+
+<body>
+    <h1>Űrlapok</h1>
+
+    <form method="" action="">
+        <fieldset>
+            <legend>Űrlap címe</legend>
+
+            <h2>Szöveg bevitel</h2>
+
+            <!-- input labell-el -->
+            <label for="nev">Név: </label>
+            <input type="text" id=nev value="Béla"><br>
+
+            <!-- placeholder, pattern -->
+
+            <label for="phone">Telefonszám:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+            Email: <input type="email"><br>
+
+            Jelszó: <input type="password"><br>
+
+            Fájl: <input type="file"><br>
+            Megjegyzés <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+            <h2>Listák</h2>
+            <p>
+                <select name="" id="">
+                    <option value="">piros</option>
+                    <option value="" selected>kék</option>
+                    <option value="">zöld</option>
+                </select>
+            </p>
+
+            <p>
+                <select name="" id="">
+                    <optgroup label="Olasz autók">
+                        <option value="">Fiat</option>
+                        <option value="">Alfa romeo</option>
+                    </optgroup>
+                    <optgroup label="Német autók">
+                        <option value="">Audi</option>
+                        <option value="">Mercedes</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <progress value="40" max="100"></progress>
+            </p>
+
+            <p>
+                <button>Gomb</button>
+            </p>
+
+            <p>
+                <label for="vanilia">Vanília </label>
+                <input  id="vanilia" type="checkbox"><br>
+                <label for="csoki">Csoki </label>
+                <input id="csoki" type="checkbox">
+            </p>
+
+            <p>
+                Fiú: <input type="radio" name="neme" checked>
+                Lány: <input type="radio" name="neme">
+            </p>
+
+            <input type="submit" value="Elküld">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
