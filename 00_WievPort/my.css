@@ -12,6 +12,7 @@ body {
 }
 
 #container {
+    max-width: 1200px;
     /* width: 1200px; */
     /* width: 980px; */
     /* width: 500px; */
@@ -42,7 +43,6 @@ td {
 
 tr {
 }
-
 td:nth-child(odd){
     background-color: lightgray;
 }
